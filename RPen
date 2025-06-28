@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPen | Ro&Bot</title>
+  <meta name="description" content="RPen - Thermal Repair Tool by Ro&Bot Royal Botics" />
+  <meta name="author" content="Ro&Bot Royal Botics" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="icon" href="https://i.ibb.co/HT1Tct5N/craiyon-161828-transparent.png" type="image/png" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #000000 0%, #3b0056 100%);
+      color: #e5e5e5;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    nav a {
+      color: #e5e5e5;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #a100f2;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .intro {
+      font-size: 1.2rem;
+      color: #bbb;
+      text-align: center;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      color: #fff;
+      margin-top: 40px;
+      font-size: 1.5rem;
+    }
+
+    p, li {
+      font-size: 1.05rem;
+      color: #ccc;
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="samanthai.html">SamanthAI</a>
+    <a href="mission.html">Mission</a>
+    <a href="tof.html">Terms</a>
+    <a href="research.html">Research</a>
+  </nav>
+
+  <div class="container">
+    <h1>RPen</h1>
+    <p class="intro">
+      The RPen is a precision thermal tool designed for repairing or reapplying thermoplastic bonds. Powered by USB-C and built with a custom resistive heating PCB, it enables clean, controlled heat application without the need for buttons or software.
+    </p>
+
+    <h2>Overview</h2>
+    <ul>
+      <li><strong>Power:</strong> 5 V via USB-C (safe negotiation using CC pull-down resistors)</li>
+      <li><strong>Heating Surface:</strong> Copper serpentine trace on FR-4 or polyimide</li>
+      <li><strong>Performance:</strong> Reaches ~150 °C in approximately 5 minutes at 2.5 W</li>
+      <li><strong>Operation:</strong> Passive — no switches, no interface, no active control</li>
+      <li><strong>Safety:</strong> Labeled heating pad with clear warnings: “DO NOT TOUCH / NO TOUCH ZONE”</li>
+    </ul>
+
+    <h2>How It Works</h2>
+    <p>
+      To use the RPen, simply plug it into a USB-C power source. The heating element will begin warming up immediately. After a few minutes, it's ready to:
+    </p>
+    <ul>
+      <li>Soften and undo existing thermoplastic bonds (like Loyal Adhesive capsules)</li>
+      <li>Melt new adhesive directly on the pad and apply it for clean resealing</li>
+    </ul>
+
+    <h2>Design Philosophy</h2>
+    <ul>
+      <li><strong>Minimalism:</strong> No buttons, screens, or software — just plug and act</li>
+      <li><strong>Intentional Use:</strong> Designed to support slow, careful restoration work</li>
+      <li><strong>Discreet Aesthetics:</strong> Professional look with understated branding</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Ro&Bot Royal Botics. All Rights Reserved.
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
